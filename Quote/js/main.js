@@ -18,6 +18,6 @@ function next() {
     random = Math.floor(Math.random() * quotes.length);
   } while (random === last);
   content.innerText = quotes[random].content;
-  author.innerText = `author is: ${quotes[random].author}`
-   last = random;
+  author.innerText = `author is: ${quotes[random].author}`;
+  last = random;
 }
